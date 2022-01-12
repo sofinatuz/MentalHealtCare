@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Nisa's Space"
+                android:textColor="#FF5C00"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/identitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_rounded"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/ic_baseline_account_circle_24"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/dp"
+                        android:text="Pasien"
+                        android:textColor="#FF5C00"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/Nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/dp"
+                        android:text="Nisa"
+                        android:textColor="#1C9EAE"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/nohp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/dp"
+                        android:textSize="12dp"
+                        android:text="085216551655"
+                        android:textColor="#8E8E8E"/>
+
+                    <TextView
+                        android:id="@+id/alamat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/dp"
+                        android:text="Jl. Ir.Soekarno No.47, Mulyorejo, Kota Surabaya Jawa Timur, Indonesia"
+                        android:textColor="#8E8E8E"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="SELF-CARE"
+                android:textColor="#8E8E8E"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_weight="1"
+                    android:autoSizeMinTextSize="4dp"
+                    android:backgroundTint="#4B4B4B"
+                    android:layout_gravity="center_vertical"
+                    android:drawableTop="@drawable/ic_baseline_note_add_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Notes"
+                    android:textColor="#BAE4DF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#0E464D"
+                    android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Information"
+                    android:textSize="8dp"
+                    android:textColor="#BAE4DF"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <Button
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/Call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FF5C00"
+                    android:drawableTop="@drawable/ic_baseline_add_ic_call_24"
+                    android:drawableTint="#BAE4DF"
+                    android:text="Emergency Call"
+                    android:textColor="#BAE4DF"
+                    android:textSize="8dp"
+                    />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/talkwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/talk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Rekomendasi RS Surabaya"
+                    android:textColor="#8E8E8E"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <Button android:id="@+id/btnMapLain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Lainnya" android:textSize="10dp"
+                    android:backgroundTint="#FF5C00"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/button_rounded"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/terapis1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/applogo"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:id="@+id/tawaran1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/pst1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat konsultasi terbaik"
+                        android:textColor="#FF5C00"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RSJ Menur"
+                        android:textColor="#1C9EAE"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jl. Raya Menur No.120, Gubeng, Surabaya"
+                        android:textColor="#8E8E8E"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:linksClickable="true"
+                        android:text="+62315021635"
+                        android:textColor="#8E8E8E"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/btnSesi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:backgroundTint="#1B96A6"
+                        android:gravity="center"
+                        android:text="Lihat Maps"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/button_rounded"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/applogo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat konsultasi terbaik"
+                        android:textColor="#FF5C00"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS Husada Utama"
+                        android:textColor="#1C9EAE"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jl. Mayjen Prof. Dr. Moestopo No.31-35"
+                        android:textColor="#8E8E8E"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:linksClickable="true"
+                        android:text="+620315018335"
+                        android:textColor="#8E8E8E"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/btnSesi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:backgroundTint="#1B96A6"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Lihat Maps"
+                        android:textColor="@color/white"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
