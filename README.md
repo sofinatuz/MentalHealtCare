@@ -15,7 +15,8 @@ Aplikasi masih berada dalam tahap pengembangan, sehigga masih dapat diterapkan p
   <img src="https://github.com/ardinadnn/Euphoria.Self-Care_Kelompok6/assets/87525325/4effdcbf-ccc3-4ae5-a704-0958b5250d95" alt="alt text" width="120" height="whatever">
   <img src="https://github.com/ardinadnn/Euphoria.Self-Care_Kelompok6/assets/87525325/96e2a212-3375-4dda-9c3e-7b2f40ad52ae" alt="alt text" width="120" height="whatever">
 </p>
-Berikut adalah fitur yang dimiliki Euphoria.Self-Care. Aplikasi masih dalam tahap
+Berikut adalah fitur yang dimiliki Euphoria.Self-Care.
+
 * Personal Notes (Diari). Pengguna dapat menuliskan pengalaman atau mencurahkan masalah hatinya tanpa perlu merasa khawatir datanya akan bocor.
 * Information. Pengguna dapat mengakses informasi-informasi terkait kesehatan mental pada fitur ini.
 * Emergency Call. Fitur ini memungkinkan pengguna untuk mengakses emergency call secara mudah untuk mengantisipasi momen yang tidak diinginkan.
